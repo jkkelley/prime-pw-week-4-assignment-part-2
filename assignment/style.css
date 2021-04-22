@@ -1,0 +1,19 @@
+header {
+  background-color: gray;
+}
+
+.info {
+  background-image: url('KiaSedona.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 75vh;
+}
+
+.nameContainer {
+  text-align: center;
+}
+
+.commentContainer {
+  text-align: center;
+}
