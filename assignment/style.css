@@ -3,30 +3,22 @@ header {
 }
 
 .info {
-  margin: 0 auto;
-  width: 500px;
-
   display: flex;
-  flex-wrap: wrap;
+  min-height: 100vh;
+  background-image: url('KiaSedona.jpg');
+  background-size: cover;
+  position: relative;
+  text-align: center;
   flex-direction: column;
-  /* flex-flow: column wrap;
-  is the same as code above,
-  just in one line of code. */
-  align-items: center;
+  justify-content: space-between;
 }
 
-
-
-.name-container {
-  margin-bottom: 100px;
-  margin-right: auto;
-  margin-left: auto;
-  flex: 0 1 100px;
+h2 {
+  background-color: green;
+  text-align: center;
 }
 
-.comment-container {
-  margin-top: 100px;
-  margin-right: auto;
-  margin-left: auto;
-  flex: 0 1 100px;
+h3 {
+  width: 100%;
+  background-color: red;
 }
